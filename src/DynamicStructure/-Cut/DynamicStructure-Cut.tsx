@@ -4,7 +4,7 @@ import HourglassTopIcon from '@mui/icons-material/HourglassTop';
 import { ButtonBase } from '@mui/material';
 import { IDynamicStructureCutProps } from './DynamicStructure-Cut.typings';
 
-// import './DynamicStructure-Cut.css';
+import './DynamicStructure-Cut.css';
 
 export const DynamicStructureCut: React.FC<IDynamicStructureCutProps> = props => {
     const {

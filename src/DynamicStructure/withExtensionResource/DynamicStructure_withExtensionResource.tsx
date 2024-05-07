@@ -5,7 +5,7 @@ import { FieldValues, SubmitHandler } from 'react-hook-form';
 import { IDynamicStructureProps } from '../DynamicStructure.typings';
 import { useExtensionData } from '../DynamicStructure.utils/useExtensionData';
 
-// import './DynamicStructure_withExtensionResource.css';
+import './DynamicStructure_withExtensionResource.css';
 import { DynamicStructureCut } from '../-Cut/DynamicStructure-Cut';
 import { styles } from './DynamicStructure_withExtensionResource.styles';
 

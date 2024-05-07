@@ -2,7 +2,7 @@ import React from 'react';
 import { DynamicInput } from '../DynamicInput/DynamicInput';
 import { IDynamicStructureProps, primitiveFields } from './DynamicStructure.typings';
 
-// import './DynamicStructure.css';
+import './DynamicStructure.css';
 import { DynamicStructureOneOf } from './-OneOf/DynamicStructureOneOf';
 import { DynamicStructureRepeated } from './-Repeated/DynamicStructureRepeated';
 import { getInputData, computeObjProps } from './DynamicStructure.utils';

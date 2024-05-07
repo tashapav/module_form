@@ -9,7 +9,7 @@ import { getParentFieldSource } from '../DynamicStructure.utils/getParentFieldSo
 import { DynamicStructureCut } from '../-Cut/DynamicStructure-Cut';
 import { styles } from './DynamicStructureOneOf.styles';
 
-// import './DynamicStructureOneOf.css';
+import './DynamicStructureOneOf.css';
 
 export const DynamicStructureOneOf = memo(function DynamicStructureOneOf(
     props: IDynamicStructureProps & { field: TFieldDeclaration },
