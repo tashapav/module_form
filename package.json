@@ -1,6 +1,6 @@
 {
   "name": "module_form",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "An interface module for creating forms in several lines based on a specially generated data schema from protobuf",
   "main": "index.js",
   "scripts": {
@@ -13,10 +13,10 @@
     "url": "https://github.com/tashapav/module_form.git"
   },
   "keywords": [
-    "make form",
+    "react",
+    "protobuf",
     "form",
-    "protobuf types",
-    "form on protobuf types"
+    "protobufjs"
   ],
   "contributors": [
     {
