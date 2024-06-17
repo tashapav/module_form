@@ -1,15 +1,34 @@
 {
   "name": "module_form",
-  "version": "0.0.3",
-  "description": "",
+  "version": "0.0.4",
+  "description": "An interface module for creating forms in several lines based on a specially generated data schema from protobuf",
   "main": "index.js",
   "scripts": {
     "build": "rollup -c",
     "start": "rollup -c -w",
     "prepublish": "npm version patch && npm run build"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git", 
+    "url": "https://github.com/tashapav/module_form.git"
+  },
+  "keywords": [
+    "make form",
+    "form",
+    "protobuf types",
+    "form on protobuf types"
+  ],
+  "contributors": [
+    {
+      "name": "tashapav",
+      "email": "np76863@gmail.com",
+      "url": "https://github.com/tashapav"},
+    {
+      "name": "KletskovG",
+      "email": "kletskov02@yandex-team.ru",
+      "url": "https://github.com/KletskovG"}
+  ],
+  "license": "MIT",
   "devDependencies": {
     "@mui/icons-material": "5.11.16",
     "@mui/material": "5.10.11",

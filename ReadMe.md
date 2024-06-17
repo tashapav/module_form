@@ -1,6 +1,6 @@
 # Module_form
 
-Module for displaying forms and data. It is used for an object with a field in protobuf format and an array of objects arranged in a hierarchy.
+An interface module for creating forms in several lines based on a specially generated data schema from protobuf
 
 ## Install
 `npm install module_form`
